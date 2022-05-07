@@ -381,6 +381,14 @@ nav {
   gap: 60px;
 }
 
+.dashboard__wrapper:first-child {
+  min-width: 290px;
+}
+
+.dashboard__wrapper:nth-child(2) {
+  min-width: 154px;
+}
+
 .dashboard__list-column {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1418,6 +1426,14 @@ input[type=range]::-moz-range-progress {
     line-height: 26px;
   }
 
+  .dashboard__wrapper:first-child {
+    min-width: 260px;
+  }
+
+  .dashboard__wrapper:nth-child(2) {
+    min-width: 137px;
+  }
+
   .dashboard__card {
     padding: 50px 35px;
   }
@@ -1511,6 +1527,10 @@ input[type=range]::-moz-range-progress {
   }
 
   .dashboard__wrapper {
+    min-width: 184px;
+  }
+
+  .dashboard__wrapper:nth-child(2) {
     min-width: 184px;
   }
 
@@ -1669,7 +1689,7 @@ input[type=range]::-moz-range-progress {
   }
 
   .section__answer {
-    padding: 70px 50px 100px 50px;
+    padding: 70px 50px 100px;
   }
 
   .answer__block {
@@ -1731,6 +1751,10 @@ input[type=range]::-moz-range-progress {
 
   .menu__social {
     margin-bottom: 30px;
+  }
+
+  .accordion {
+    width: 80%;
   }
 
   .currency {
@@ -1899,6 +1923,10 @@ input[type=range]::-moz-range-progress {
   .dashboard__wrapper {
     min-width: 164px;
     gap: 50px;
+  }
+
+  .dashboard__wrapper:nth-child(2) {
+    min-width: 164px;
   }
 
   .dashboard__list-title {
@@ -2082,6 +2110,22 @@ input[type=range]::-moz-range-progress {
     font-size: 16px;
     line-height: 18px;
   }
+
+  .section__answer {
+    padding: 60px 30px 70px;
+  }
+
+  .answer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    gap: 40px;
+  }
+
+  .copy-btn {
+    margin: 0;
+  }
 }
 
 @media (max-width: 479.98px) {
@@ -2127,8 +2171,17 @@ input[type=range]::-moz-range-progress {
     font-size: 18px;
   }
 
+  .accordion {
+    width: 100%;
+    padding: 0 30px;
+  }
+
   .dashboard__wrapper {
     width: 100%;
+  }
+
+  .dashboard__wrapper:first-child {
+    min-width: 200px;
   }
 
   .dashboard__wrapper:last-child {
@@ -2307,5 +2360,30 @@ input[type=range]::-moz-range-progress {
   .swap__row-number {
     font-size: 22px;
     line-height: 28px;
+  }
+
+  .section__answer {
+    padding: 60px 20px;
+  }
+
+  .answer {
+    gap: 35px;
+  }
+
+  .answer__block-title {
+    font-size: 32px;
+    line-height: 38px;
+  }
+
+  .answer__block-text {
+    font-size: 16px;
+  }
+
+  .answer__next {
+    padding: 20px;
+  }
+
+  .answer__next-text {
+    font-size: 14px;
   }
 }
