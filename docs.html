@@ -37,64 +37,424 @@
 
     <!-- Main Page -->
     <main>
-        <section class="menu menu-bottom">
-    <div class="menu__list">
-        <a class="menu__list-item" href="./index.html">
-            <img src="./img/menu1.svg" alt="img">
-            <span>Dashboard</span>
-        </a>
-        <a class="menu__list-item" href="./account.html">
-            <img src="./img/menu2.svg" alt="img">
-            <span>Account</span>
-        </a>
-        <a class="menu__list-item" href="./calculator.html">
-            <img src="./img/menu3.svg" alt="img">
-            <span>Calculator</span>
-        </a>
-        <a class="menu__list-item" href="./swap.html">
-            <img src="./img/menu4.svg" alt="img">
-            <span>Swap</span>
-        </a>
-        <a class="menu__list-item menu__list-item--active" href="./docs.html">
-            <img src="./img/menu5.svg" alt="img">
-            <span>Docs</span>
-        </a>
-    </div>
+        <section class="menu menu-docs">
+    <!-- Accordion -->
+    <div class="accordion">
+        <div class="accordion__item accordion__item-active">
+            <div class="accordion__item-trigger">
+                <div class="trigger__text">Feugiat imperdiet.</div>
+                <div class="trigger__img">
+                    <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.49121 1L5.9998 5.5L1.49121 10" stroke="white" stroke-width="2"
+                            stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="accordion__item-content">
+                <!-- Tabs -->
+                <div class="tabs">
+                    <div class="tabs__header">
+                        <div class="tabs__header-item active">Porta velit volutpat ris</div>
+                        <div class="tabs__header-item">Orci sed amet in qua</div>
+                        <div class="tabs__header-item">At tempus sagittis.</div>
+                        <div class="tabs__header-item">Nisl viverra ullamcorpe</div>
+                    </div>
+                    <div class="tabs__content">
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <div class="menu__social">
-        <a class="menu__social-link" href="#">
-            <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M26.7857 13.5C26.7857 20.837 20.837 26.7857 13.5 26.7857C6.16297 26.7857 0.214294 20.837 0.214294 13.5C0.214294 6.16297 6.16297 0.214294 13.5 0.214294C20.837 0.214294 26.7857 6.16297 26.7857 13.5ZM13.9761 10.0225C12.684 10.5594 10.1011 11.6721 6.22829 13.3594C5.59944 13.6096 5.26951 13.8543 5.23962 14.0934C5.18869 14.4987 5.69576 14.6581 6.3844 14.874C6.47851 14.9039 6.57594 14.9338 6.67558 14.967C7.35426 15.1873 8.26654 15.4453 8.7404 15.4552C9.17108 15.4641 9.65158 15.2869 10.1819 14.9238C13.8 12.4803 15.6678 11.2459 15.7852 11.2193C15.8682 11.2005 15.9833 11.1761 16.0608 11.2459C16.1383 11.3145 16.1306 11.4452 16.1228 11.4806C16.0719 11.6943 14.0857 13.5421 13.056 14.4987C12.735 14.7965 12.508 15.0079 12.4615 15.0567C12.3574 15.164 12.2512 15.267 12.1493 15.3655C11.5182 15.9723 11.0466 16.4284 12.1759 17.1724C12.7184 17.53 13.1524 17.8256 13.5853 18.1201C14.058 18.4423 14.5297 18.7634 15.1408 19.1642C15.2958 19.266 15.4442 19.3712 15.5892 19.4741C16.1394 19.8672 16.6343 20.2193 17.2455 20.1639C17.5998 20.1307 17.9673 19.7974 18.1533 18.8021C18.5929 16.4483 19.4587 11.351 19.659 9.24969C19.6712 9.07522 19.6638 8.89993 19.6369 8.72712C19.6208 8.58754 19.5528 8.45911 19.4465 8.36729C19.2882 8.23776 19.0424 8.21008 18.9317 8.21229C18.4323 8.22115 17.6662 8.48797 13.9761 10.0225Z"
-                    fill="#E7E7E7" />
-            </svg>
-        </a>
-        <a class="menu__social-link" href="#">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M14 0C6.26875 0 0 6.26875 0 14C0 21.7313 6.26875 28 14 28C21.7313 28 28 21.7313 28 14C28 6.26875 21.7313 0 14 0ZM22 7.92813L20.725 9.15C20.6125 9.23438 20.5594 9.37188 20.5812 9.50625V18.4969C20.5594 18.6344 20.6125 18.7719 20.725 18.8531L21.975 20.075V20.3469H15.7V20.0875L16.9906 18.8344C17.1187 18.7063 17.1187 18.6687 17.1187 18.4781V11.2031L13.525 20.3156H13.0406L8.85938 11.2031V17.3125C8.82187 17.5688 8.9125 17.8281 9.09375 18.0125L10.775 20.0469V20.3188H6V20.0469L7.68125 18.0125C7.76983 17.921 7.83575 17.81 7.87374 17.6885C7.91173 17.5669 7.92072 17.4382 7.9 17.3125V10.25C7.92187 10.0531 7.84687 9.8625 7.69687 9.72812L6.20312 7.92813V7.65625H10.8438L14.425 15.5156L17.5781 7.6625H22V7.92813Z"
-                    fill="#E7E7E7" />
-            </svg>
-        </a>
-        <a class="menu__social-link" href="#">
-            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M14 0C6.26875 0 0 6.26875 0 14C0 21.7313 6.26875 28 14 28C21.7313 28 28 21.7313 28 14C28 6.26875 21.7313 0 14 0ZM20.7281 10.5531C20.7375 10.7 20.7375 10.8531 20.7375 11.0031C20.7375 15.5906 17.2437 20.875 10.8594 20.875C8.89062 20.875 7.06562 20.3031 5.52812 19.3188C5.80937 19.35 6.07813 19.3625 6.36563 19.3625C7.99063 19.3625 9.48438 18.8125 10.675 17.8813C9.15 17.85 7.86875 16.85 7.43125 15.475C7.96562 15.5531 8.44687 15.5531 8.99687 15.4125C8.21164 15.253 7.50586 14.8265 6.99943 14.2056C6.49299 13.5846 6.21715 12.8075 6.21875 12.0063V11.9625C6.67812 12.2219 7.21875 12.3812 7.78438 12.4031C7.30888 12.0862 6.91893 11.6569 6.6491 11.1532C6.37926 10.6495 6.23789 10.087 6.2375 9.51562C6.2375 8.86875 6.40625 8.27812 6.70938 7.76562C7.58095 8.83855 8.66853 9.71607 9.90145 10.3411C11.1344 10.9662 12.485 11.3249 13.8656 11.3938C13.375 9.03438 15.1375 7.125 17.2563 7.125C18.2563 7.125 19.1562 7.54375 19.7906 8.21875C20.575 8.07187 21.325 7.77812 21.9937 7.38437C21.7344 8.1875 21.1906 8.86562 20.4688 9.29375C21.1688 9.21875 21.8438 9.025 22.4688 8.75313C21.9969 9.44688 21.4062 10.0625 20.7281 10.5531Z"
-                    fill="#E7E7E7" />
-            </svg>
-        </a>
-        <a class="menu__social-link" href="#">
-            <svg width="28" height="22" viewBox="0 0 28 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path
-                    d="M17.76 0.679993C17.4952 1.15424 17.2592 1.64402 17.0533 2.14666C15.0304 1.82673 12.9697 1.82673 10.9467 2.14666C10.7408 1.64402 10.5048 1.15424 10.24 0.679993C8.3344 1.00559 6.48188 1.58871 4.73335 2.41333C1.6066 6.92571 0.188595 12.4039 0.733345 17.8667C2.771 19.3985 5.05796 20.5668 7.49334 21.32C8.0479 20.5875 8.54281 19.8116 8.97334 19C8.17878 18.707 7.41507 18.3363 6.69334 17.8933C6.89129 17.7616 7.07854 17.6145 7.25334 17.4533C9.35796 18.4671 11.664 18.9935 14 18.9935C16.3361 18.9935 18.6421 18.4671 20.7467 17.4533C20.9333 17.6133 21.12 17.76 21.3067 17.8933C20.581 18.3329 19.8181 18.7076 19.0267 19.0133C19.4394 19.8434 19.921 20.6373 20.4667 21.3867C22.899 20.636 25.182 19.4674 27.2133 17.9333C27.7712 12.4696 26.352 6.9869 23.2133 2.47999C21.4844 1.63831 19.6502 1.03289 17.76 0.679993ZM9.57334 14.7467C8.90612 14.6988 8.2834 14.3942 7.83591 13.897C7.38841 13.3998 7.15094 12.7486 7.17334 12.08C7.14756 11.4105 7.38386 10.7574 7.83203 10.2595C8.28019 9.76151 8.90489 9.45795 9.57334 9.41333C10.2418 9.45795 10.8665 9.76151 11.3147 10.2595C11.7628 10.7574 11.9991 11.4105 11.9733 12.08C11.9991 12.7494 11.7628 13.4025 11.3147 13.9005C10.8665 14.3985 10.2418 14.702 9.57334 14.7467ZM18.4267 14.7467C17.7595 14.6988 17.1367 14.3942 16.6892 13.897C16.2417 13.3998 16.0043 12.7486 16.0267 12.08C16.0009 11.4105 16.2372 10.7574 16.6854 10.2595C17.1335 9.76151 17.7582 9.45795 18.4267 9.41333C19.0964 9.45462 19.7231 9.75719 20.1719 10.2559C20.6208 10.7546 20.8559 11.4097 20.8267 12.08C20.8559 12.7503 20.6208 13.4053 20.1719 13.9041C19.7231 14.4028 19.0964 14.7054 18.4267 14.7467Z"
-                    fill="#E7E7E7" />
-            </svg>
-        </a>
+        <div class="accordion__item">
+            <div class="accordion__item-trigger">
+                <div class="trigger__text">Est volutpat.</div>
+                <div class="trigger__img">
+                    <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.49121 1L5.9998 5.5L1.49121 10" stroke="white" stroke-width="2"
+                            stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="accordion__item-content">
+                <!-- Tabs -->
+                <div class="tabs">
+                    <div class="tabs__header tabs__header2">
+                        <div class="tabs__header-item active">Porta velit volutpat ris</div>
+                        <div class="tabs__header-item">Orci sed amet in qua</div>
+                        <div class="tabs__header-item">At tempus sagittis.</div>
+                        <div class="tabs__header-item">Nisl viverra ullamcorpe</div>
+                    </div>
+                    <div class="tabs__content">
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion__item">
+            <div class="accordion__item-trigger">
+                <div class="trigger__text">Imperdiet eu.</div>
+                <div class="trigger__img">
+                    <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.49121 1L5.9998 5.5L1.49121 10" stroke="white" stroke-width="2"
+                            stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="accordion__item-content">
+                <!-- Tabs -->
+                <div class="tabs">
+                    <div class="tabs__header tabs__header3">
+                        <div class="tabs__header-item active">Porta velit volutpat ris</div>
+                        <div class="tabs__header-item">Orci sed amet in qua</div>
+                        <div class="tabs__header-item">At tempus sagittis.</div>
+                        <div class="tabs__header-item">Nisl viverra ullamcorpe</div>
+                    </div>
+                    <div class="tabs__content">
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion__item">
+            <div class="accordion__item-trigger">
+                <div class="trigger__text">Mauris vulputate.</div>
+                <div class="trigger__img">
+                    <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.49121 1L5.9998 5.5L1.49121 10" stroke="white" stroke-width="2"
+                            stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="accordion__item-content">
+                <!-- Tabs -->
+                <div class="tabs">
+                    <div class="tabs__header tabs__header4">
+                        <div class="tabs__header-item active">Porta velit volutpat ris</div>
+                        <div class="tabs__header-item">Orci sed amet in qua</div>
+                        <div class="tabs__header-item">At tempus sagittis.</div>
+                        <div class="tabs__header-item">Nisl viverra ullamcorpe</div>
+                    </div>
+                    <div class="tabs__content">
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion__item">
+            <div class="accordion__item-trigger">
+                <div class="trigger__text">Bibendum turpis.</div>
+                <div class="trigger__img">
+                    <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.49121 1L5.9998 5.5L1.49121 10" stroke="white" stroke-width="2"
+                            stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="accordion__item-content">
+                <!-- Tabs -->
+                <div class="tabs">
+                    <div class="tabs__header tabs__header5">
+                        <div class="tabs__header-item active">Porta velit volutpat ris</div>
+                        <div class="tabs__header-item">Orci sed amet in qua</div>
+                        <div class="tabs__header-item">At tempus sagittis.</div>
+                        <div class="tabs__header-item">Nisl viverra ullamcorpe</div>
+                    </div>
+                    <div class="tabs__content">
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion__item">
+            <div class="accordion__item-trigger">
+                <div class="trigger__text">Tincidunt ac.</div>
+                <div class="trigger__img">
+                    <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.49121 1L5.9998 5.5L1.49121 10" stroke="white" stroke-width="2"
+                            stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="accordion__item-content">
+                <!-- Tabs -->
+                <div class="tabs">
+                    <div class="tabs__header tabs__header6">
+                        <div class="tabs__header-item active">Porta velit volutpat ris</div>
+                        <div class="tabs__header-item">Orci sed amet in qua</div>
+                        <div class="tabs__header-item">At tempus sagittis.</div>
+                        <div class="tabs__header-item">Nisl viverra ullamcorpe</div>
+                    </div>
+                    <div class="tabs__content">
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion__item">
+            <div class="accordion__item-trigger">
+                <div class="trigger__text">Mollis amet.</div>
+                <div class="trigger__img">
+                    <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.49121 1L5.9998 5.5L1.49121 10" stroke="white" stroke-width="2"
+                            stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="accordion__item-content">
+                <!-- Tabs -->
+                <div class="tabs">
+                    <div class="tabs__header tabs__header7">
+                        <div class="tabs__header-item active">Porta velit volutpat ris</div>
+                        <div class="tabs__header-item">Orci sed amet in qua</div>
+                        <div class="tabs__header-item">At tempus sagittis.</div>
+                        <div class="tabs__header-item">Nisl viverra ullamcorpe</div>
+                    </div>
+                    <div class="tabs__content">
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion__item">
+            <div class="accordion__item-trigger">
+                <div class="trigger__text">In fringilla morbi.</div>
+                <div class="trigger__img">
+                    <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.49121 1L5.9998 5.5L1.49121 10" stroke="white" stroke-width="2"
+                            stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="accordion__item-content">
+                <!-- Tabs -->
+                <div class="tabs">
+                    <div class="tabs__header tabs__header8">
+                        <div class="tabs__header-item active">Porta velit volutpat ris</div>
+                        <div class="tabs__header-item">Orci sed amet in qua</div>
+                        <div class="tabs__header-item">At tempus sagittis.</div>
+                        <div class="tabs__header-item">Nisl viverra ullamcorpe</div>
+                    </div>
+                    <div class="tabs__content">
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion__item">
+            <div class="accordion__item-trigger">
+                <div class="trigger__text">Pellentesque elit.</div>
+                <div class="trigger__img">
+                    <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.49121 1L5.9998 5.5L1.49121 10" stroke="white" stroke-width="2"
+                            stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="accordion__item-content">
+                <!-- Tabs -->
+                <div class="tabs">
+                    <div class="tabs__header tabs__header9">
+                        <div class="tabs__header-item active">Porta velit volutpat ris</div>
+                        <div class="tabs__header-item">Orci sed amet in qua</div>
+                        <div class="tabs__header-item">At tempus sagittis.</div>
+                        <div class="tabs__header-item">Nisl viverra ullamcorpe</div>
+                    </div>
+                    <div class="tabs__content">
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="accordion__item">
+            <div class="accordion__item-trigger">
+                <div class="trigger__text">Pretium urna elit.</div>
+                <div class="trigger__img">
+                    <svg width="8" height="11" viewBox="0 0 8 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1.49121 1L5.9998 5.5L1.49121 10" stroke="white" stroke-width="2"
+                            stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+            <div class="accordion__item-content">
+                <!-- Tabs -->
+                <div class="tabs">
+                    <div class="tabs__header tabs__header10">
+                        <div class="tabs__header-item active">Porta velit volutpat ris</div>
+                        <div class="tabs__header-item">Orci sed amet in qua</div>
+                        <div class="tabs__header-item">At tempus sagittis.</div>
+                        <div class="tabs__header-item">Nisl viverra ullamcorpe</div>
+                    </div>
+                    <div class="tabs__content">
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                        <div class="tabs__content-item"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="section__answer">
+    <div class="answer">
+        <div class="answer__block">
+            <h2 class="answer__block-title">Lectus odio lacus iaculis.</h2>
+            <p class="answer__block-text">Ut a sit nunc volutpat felis lobortis adipiscing. Sed bibendum ullamcorper
+                aliquam aliquet feugiat dui fermentum. Placerat turpis sed amet, sed accumsan, vitae. Et, varius eget
+                est cras. Laoreet nunc turpis dolor, massa semper. Est velit aliquam sodales sit amet aliquam vel ac.
+                Pulvinar consequat sem donec ultrices ut maecenas rhoncus. Montes, luctus faucibus cursus at at
+                adipiscing vitae. Vestibulum morbi nam urna nullam ac. Cras lectus vitae nam vitae diam cursus. Sit
+                sodales adipiscing velit nibh placerat nisi, est mollis. Lacus, aenean a integer nisl ut
+                vel.<br><br>
+                ecenas rhoncus. Montes, luctus faucibus cursus at at adipiscing vitae. Vestibulum morbi nam urna nullam
+                ac. Cras lectus vitae nam vitae diam cursus. Sit sodales adipiscing velit nibh placerat nisi, est
+                mollis. Lacus, aenean a integer nisl ut vel.<br><br>
+                Proin tristique scelerisque mauris rhoncus, sit at molestie leo rhoncus. Interdum enim, aliquam enim
+                proin nulla non morbi nec, odio. Felis sed bibendum varius ultrices netus ultricies consequat auctor
+                maecenas. Tellus nisi viverra odio mattis cursus non nec diam ut. Mi nullam consequat volutpat
+                adipiscing velit purus. Pellentesque pellentesque vulputate cras ante faucibus scelerisque luctus
+                aliquam non. Sociis tristique ut tortor sed tortor. Quam consequat nec massa nunc, congue pellentesque
+                vel id. Convallis sagittis quis velit, malesuada rhoncus, so.</p>
+
+            <div class="answer__next">
+                <div class="answer__next-item">
+                    <h5 class="answer__next-title">Next</h5>
+                    <p class="answer__next-text">Ornare eu nisi eget cras faucibus neque enim.</p>
+                </div>
+
+                <a class="answer__next-link" href="#">
+                    <img class="answer__next-img" src="./img/yellow__arrow.svg" alt="img">
+                </a>
+            </div>
+        </div>
+
+        <button class="copy-btn">
+            <img src="./img/link.svg" alt="img">
+            <span class="copy-btn-text">Copy link</span>
+        </button>
     </div>
 </section>
     </main>
 </body>
 
 <script src="./js/scripts.min.js"></script>
+<script>
+    function accordion() {
+        const items = document.querySelectorAll('.accordion__item-trigger')
+        items.forEach(item => {
+            item.addEventListener('click', () => {
+                const parent = item.parentNode
+                if (parent.classList.contains('accordion__item-active')) {
+                    parent.classList.remove('accordion__item-active')
+                } else {
+                    document
+                        .querySelectorAll('.accordion__item')
+                        .forEach(child => child.classList.remove('accordion__item-active'))
+                    parent.classList.add('accordion__item-active')
+                }
+            })
+        })
+    }
+    accordion()
+
+
+    function tabs(headerSelector, tabSelector, contentSelector, activeClass, display = 'flex') {
+        const header = document.querySelector(headerSelector),
+            tab = document.querySelectorAll(tabSelector),
+            content = document.querySelectorAll(contentSelector)
+        function hideTabContent() {
+            content.forEach(item => {
+                item.style.display = 'none'
+            });
+            tab.forEach(item => {
+                item.classList.remove(activeClass)
+            });
+        }
+        function showTabContent(i = 0) {
+            content[i].style.display = display
+            tab[i].classList.add(activeClass)
+        }
+        hideTabContent()
+        showTabContent()
+        header.addEventListener('click', e => {
+            const target = e.target
+            if (target.classList.contains(tabSelector.replace(/\./, '')) ||
+                target.parentNode.classList.contains(tabSelector.replace(/\./, ''))) {
+                tab.forEach((item, i) => {
+                    if (target == item || target.parentNode == item) {
+                        hideTabContent()
+                        showTabContent(i)
+                    }
+                });
+            }
+        })
+    }
+    tabs('.tabs__header', '.tabs__header-item', '.tabs__content-item', 'active')
+    tabs('.tabs__header2', '.tabs__header-item', '.tabs__content-item', 'active')
+    tabs('.tabs__header3', '.tabs__header-item', '.tabs__content-item', 'active')
+    tabs('.tabs__header4', '.tabs__header-item', '.tabs__content-item', 'active')
+    tabs('.tabs__header5', '.tabs__header-item', '.tabs__content-item', 'active')
+    tabs('.tabs__header6', '.tabs__header-item', '.tabs__content-item', 'active')
+    tabs('.tabs__header7', '.tabs__header-item', '.tabs__content-item', 'active')
+    tabs('.tabs__header8', '.tabs__header-item', '.tabs__content-item', 'active')
+    tabs('.tabs__header9', '.tabs__header-item', '.tabs__content-item', 'active')
+    tabs('.tabs__header10', '.tabs__header-item', '.tabs__content-item', 'active')
+
+
+
+    // Copy Link
+    const button = document.querySelector('.copy-btn')
+
+    const addToClipboard = async (link) => {
+        await navigator.clipboard.writeText(link);
+    }
+
+    const copyLink = async (link) => {
+        const copied = await addToClipboard(link)
+        button.innerHTML = `<img src="./img/link.svg" alt="img">
+            <span class="copy-btn-text">Copied</span>`
+        // setTimeout(() => {
+        //     button.innerText = 'Copy link'
+        // }, 3000)
+    };
+
+    button.addEventListener('click', () => copyLink('https://sinchirocka39.github.io/griffin/docs.html'))
+</script>
 
 </html>
