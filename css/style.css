@@ -1757,6 +1757,7 @@ input[type=range]::-moz-range-progress {
 
   .menu__social {
     margin-bottom: 30px;
+    margin-top: 10px;
   }
 
   .accordion {
